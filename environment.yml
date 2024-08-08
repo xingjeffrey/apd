@@ -1,0 +1,12 @@
+name: kai_apd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - black
+  - flake8
+  - isort
+  - pip
+  - pip:
+    - python-dotenv
+    - -e .
